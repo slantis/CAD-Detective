@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>CAD Detective</Name>
+    <Assembly>CADDetective.dll</Assembly>
+    <AddInId>5A47C252-6B19-4AC8-A4BE-395C48FCD6F1</AddInId>
+    <Text>CAD Detective</Text>
+    <Description>Find linked and imported CADs through the model</Description>
+    <FullClassName>CADDetective.ThisApplication</FullClassName>
+    <VendorId>Gaston</VendorId>
+    <VendorDescription>gaston@archsourcing.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

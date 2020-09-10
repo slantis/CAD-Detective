@@ -58,8 +58,7 @@ namespace CADDetective
                 // Button configuration
                 string CadDetectiveName = "CAD Detective";
                 PushButtonData CadDetectiveData = new PushButtonData(CadDetectiveName, CadDetectiveName, exeConfigPath, "CADDetective.ThisCommand");
-                CadDetectiveData.LargeImage = Utils.RetriveImage("CADDetective.Resources.lupa32x32.ico"); // Pushbutton image
-                CadDetectiveData.Image = Utils.RetriveImage("CADDetective.Resources.lupa16x16.ico");
+                CadDetectiveData.LargeImage = Utils.RetriveImage("CADDetective.Resources.Lupa.ico"); // Pushbutton image
                 CadDetectiveData.ToolTip = "Find linked and imported CADs through the model";
                 RibbonItem CadDetectiveButton = DefaultPanel.AddItem(CadDetectiveData); // Add pushbutton
 

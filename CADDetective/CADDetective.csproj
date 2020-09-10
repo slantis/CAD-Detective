@@ -68,14 +68,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\lupa16x16.ico" />
-    <EmbeddedResource Include="Resources\lupa32x32.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <Page Include="FindCADsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Lupa.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
